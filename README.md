@@ -16,7 +16,7 @@
 
 ### Here You can see the output of my portfolio
 
-![1](./ss/1.png)
+<!-- ![1](./ss/1.png) -->
 
 
 ---
