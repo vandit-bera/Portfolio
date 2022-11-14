@@ -41,7 +41,7 @@
 ---
 
 
-## Contact
+## 📞Contact
 
 - **Name 👨‍💻:** [Vandit Bera](https://github.com/vandit-bera)
 - **Email 📧:** [vanditbera@gmail.com](mailto:vanditbera@gmail.com)
