@@ -32,7 +32,9 @@
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; 
+  --font-secondary: "BatmanForeverAlternate";
+}
 
 *,
 *::before,
@@ -8366,6 +8368,7 @@ h1, h2, h3, h4, h5,
 .navbar-brand {
   font-weight: 900;
   font-size: 24px;
+  font-family: var(--font-secondary);
   text-transform: uppercase; }
 
 .hero h3.vr {
@@ -9191,9 +9194,10 @@ textarea.form-control {
     letter-spacing: 3px; }
   .heading-section h1.big {
     position: absolute;
+    font-family: var(--font-secondary);
     top: 0px;
     left: 0;
-    font-size: 7vw;
+    font-size: 6vw;
     color: rgba(255, 255, 255, 0.1);
     z-index: -1;
     font-weight: 900; }
@@ -9201,7 +9205,9 @@ textarea.form-control {
       right: 0; }
   .heading-section h2 {
     font-size: 50px;
-    font-weight: 700; }
+    font-weight: 700; 
+    font-family: var(--font-secondary);
+  }
     .heading-section h2 span {
       font-weight: 400; }
     @media (max-width: 767.98px) {
